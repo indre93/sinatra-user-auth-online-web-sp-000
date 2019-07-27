@@ -18,7 +18,7 @@ class ApplicationController < Sinatra::Base
 
   post '/registrations' do
     pus params
-    redirect '/users/home'
+
   end
 
   get '/sessions/login' do
