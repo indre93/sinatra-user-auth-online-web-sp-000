@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/registrations' do
-    pus params
+    puts params
 
   end
 
